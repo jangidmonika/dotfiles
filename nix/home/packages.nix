@@ -61,7 +61,7 @@
       nodePackages.aws-cdk
       # Python Runtime
       (ruby.withPackages (ps: with ps; [ neovim ]))
-      (python312.withPackages (ps: with ps; [ pip pyelftools click pip-tools ]))
+      (python312.withPackages (ps: with ps; [ pip pyelftools click pip-tools jupyter ]))
       # Poetry 
       poetry
       poetryPlugins.poetry-plugin-export
