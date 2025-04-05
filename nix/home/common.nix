@@ -167,7 +167,7 @@
       # pager = {
       #   diff = false;
       # };
-      # pull.ff = "only";
+      pull.ff = "only";
       init.defaultBranch = "master";
       # gpg.format = "ssh";
       # gpg.ssh.allowedSignersFile = "~/.ssh/allowed_signers";
