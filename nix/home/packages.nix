@@ -64,7 +64,6 @@
       (python312.withPackages (ps: with ps; [ pip pyelftools click pip-tools jupyter virtualenv ]))
       # Poetry 
       poetry
-      poetryPlugins.poetry-plugin-export
       # END Poetry 
       uv
       plantuml

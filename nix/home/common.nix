@@ -32,7 +32,7 @@
     keyMode = "vi";
     prefix = "C-a";
     baseIndex = 1;
-    terminal = "xterm-ghostty";
+    # terminal = "xterm-ghostty";
     shell = "${pkgs.zsh}/bin/zsh";
     plugins = with pkgs.tmuxPlugins; [
       # sensible
@@ -285,6 +285,9 @@
     enable = true;
     enableBashIntegration = true;
     settings = {
+      # format = ''
+      #   [┌](bold white) $time
+      #   [│](bold white)$all'';
       aws = {
         symbol = "  ";
       };
@@ -464,6 +467,7 @@
         symbol = " ";
       };
     };
+
     # settings = {
     #   format = ''
     #     [┌](bold white) $time
