@@ -101,6 +101,10 @@
             extraModules = [ ./nix/home/personal.nix ];
             arch = "aarch64-darwin";
         };
+        "vishwas@desk" = mkHm {
+            extraModules = [ ./nix/home/personal.nix ];
+            arch = "x86_64-linux";
+        };
         "ubuntu" = mkHm {
           extraModules = [ ./nix/home/ubuntu.nix ];
           arch = "x86_64-linux";
