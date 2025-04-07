@@ -102,7 +102,7 @@
             arch = "aarch64-darwin";
         };
         "vishwas@desk" = mkHm {
-            extraModules = [ ./nix/home/personal.nix ];
+            extraModules = [ ./nix/home/linux.nix ];
             arch = "x86_64-linux";
         };
         "ubuntu" = mkHm {
