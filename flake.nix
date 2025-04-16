@@ -87,7 +87,7 @@
       };
 
       darwinConfigurations = {
-        "macbook" = mkDarwin {
+        "macmini" = mkDarwin {
           extraDarwinModules = [./nix/darwin/personal.nix];
         };
       };
